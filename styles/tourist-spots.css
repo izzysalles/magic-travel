@@ -1,14 +1,11 @@
-@media only screen and (max-width: 1200px) {
-  .images {
-    width: auto !important;
-  }
-  
-  .images #img2 {
-    display: none;
+@media only screen and (max-width: 850px) {
+  .places {
+    width: 500px;
+    flex-direction: column;
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 655px) {
   .fairy-tale-area {
     height: auto !important;
   }
@@ -20,12 +17,7 @@
   }
 
   .fairy-tale-container .fairy-tale-text {
-    margin-bottom: 30px !important;
-  }
-  
-  .places {
-    width: 500px;
-    flex-direction: column;
+    margin-top: 30px !important;
   }
 
   .places .places-text {
@@ -97,15 +89,14 @@ nav, ul, li {
   justify-content: center;
 }
 
-.fairy-tale-container .images {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  padding-left: 30px;
-}
-
 .fairy-tale-container img:hover {
   opacity: 0.8;
+}
+
+.fairy-tale-container .fairy-tale-text {
+  margin-top: 115px;
+  margin-left: 30px;
+  margin-bottom: auto;
 }
 
 .fairy-tale-container .title {
@@ -123,10 +114,6 @@ nav, ul, li {
   margin-top: 24px;
   width: 100%;
   line-height: 21px;
-}
-
-.images #img2 {
-  margin-left: 15px;
 }
 
 .places-area {
@@ -177,37 +164,13 @@ nav, ul, li {
   line-height: 21px;
 }
 
-.places-text .description {
-  margin-bottom: 20px;
-}
-
-.places-text .place {
+.places-text .title {
+  font-size: 24px;
   font-weight: 700;
 }
 
-.places-text .movie {
-  margin-bottom: 20px;
-}
-
-.places-text button {
-  background-color: #4FA4AB;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
-  width: 156px;
-  height: 39px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.places-text button:hover {
-  opacity: 0.8;
-}
-
-.places-text a {
-  text-decoration: none;
-  color: #ffffff;
+.places-text p {
+  margin-bottom: 10px;
 }
 
 footer {
